@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: n8n-service
+    env: docker
+    repo: https://github.com/<your-username>/n8n-auto-reposter
+    rootDir: n8n
+    branch: main
+
+  - type: web
+    name: uploader-service
+    env: docker
+    repo: https://github.com/<your-username>/n8n-auto-reposter
+    rootDir: uploader
+    branch: main
